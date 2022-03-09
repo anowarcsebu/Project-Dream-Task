@@ -33,7 +33,7 @@
     <div class="dark-overlay">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8">
+          <div class="col-md-8">
             <h3 class="heading mb-4"><strong>We can make your dream come true,</strong> Let's realize your dream together.......</h3>
             <div class="d-flex flex-row">
               <i class="fa fa-check align-self-start p-2 m-4"></i>
@@ -48,7 +48,7 @@
               <p class="pgraph align-self-end p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni et eius quas, optio sed, nam incidunt esse excepturi, at suscipit, repudiandae obcaecati alias dolorum quam.</p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="card text-center">
               <div class="card-body">
                 <h4 class="signup">Let's Sign Up</h4>
@@ -191,29 +191,35 @@
     </div>
   </footer>
   <!-- MODAL -->
-  <div class="modal" id="modalbox">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="heading">Contact Us</h3>
-          <button class="close" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body">
-          <form action="https://formspree.io/f/xjvlryoj" method="POST">
-            <div class="form-group">
-              <label for="name" class="label-tag">Name</label>
-              <input type="text" class="form-control" id="name" name="Name">
+  <div class="containet">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="modal" id="modalbox">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="heading">Contact Us</h3>
+                <button class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <form action="https://formspree.io/f/xjvlryoj" method="POST">
+                  <div class="form-group">
+                    <label for="name" class="label-tag">Name</label>
+                    <input type="text" class="form-control" id="name" name="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="label-tag">Email</label>
+                    <input type="email" class="form-control" id="email" name="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="message" class="label-tag">Message</label>
+                    <textarea name="Message" id="message" class="form-control"></textarea>
+                  </div>
+                  <input class="btn" type="submit" value="Send">
+                </form>
+              </div>
             </div>
-            <div class="form-group">
-              <label for="email" class="label-tag">Email</label>
-              <input type="email" class="form-control" id="email" name="Email">
-            </div>
-            <div class="form-group">
-              <label for="message" class="label-tag">Message</label>
-              <textarea name="Message" id="message" class="form-control"></textarea>
-            </div>
-            <input class="btn" type="submit" value="Send">
-          </form>
+          </div>
         </div>
       </div>
     </div>
