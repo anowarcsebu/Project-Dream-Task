@@ -181,6 +181,12 @@ $pfont:Arial Narrow;
   .name{
     color:$secclr;
   }
+  .btn{
+    background:$firclr;
+    color:$thiclr;
+    font-family:$hfont;
+    font-wegint:bold;
+  }
 }
 /*MODAL*/
 #modalbox{

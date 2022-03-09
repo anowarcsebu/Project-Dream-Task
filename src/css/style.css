@@ -144,6 +144,11 @@
     color: #FDD559; }
   #footer .name {
     color: #FDD559; }
+  #footer .btn {
+    background: #81D5FB;
+    color: #FF84A7;
+    font-family: Century;
+    font-wegint: bold; }
 
 /*MODAL*/
 #modalbox .modal-content {
