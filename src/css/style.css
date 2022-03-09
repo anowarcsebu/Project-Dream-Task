@@ -1,0 +1,166 @@
+/*HOME SECTION*/
+.navbar {
+  opacity: 0.7;
+  border-top: 3px solid #81D5FB;
+  border-bottom: 3px solid #81D5FB; }
+
+.brandname {
+  color: #81D5FB;
+  font-family: Century; }
+
+#menubar .nav-link {
+  font-family: Arial Narrow;
+  color: #81D5FB; }
+
+#menubar ul li a:hover {
+  color: #FDD559;
+  font-weight: bold; }
+
+/*HOME SECTION*/
+#home-section {
+  background: url("../img/bg.jpg") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed; }
+  #home-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.7); }
+  #home-section .heading {
+    font-family: Century;
+    color: #81D5FB; }
+  #home-section .pgraph {
+    font-family: Arial Narrow;
+    color: #FF84A7; }
+  #home-section .container {
+    padding-top: 135px;
+    padding-bottom: 135px; }
+  #home-section .card {
+    background: #FF84A7; }
+  #home-section .fa {
+    color: #FDD559;
+    background: #81D5FB;
+    border-radius: 2px; }
+  #home-section .signup {
+    font-family: Century;
+    color: #FDD559; }
+  #home-section .register {
+    font-family: Arial Narrow;
+    color: #FDD559; }
+  #home-section .btn {
+    font-family: Arial Narrow;
+    color: #FDD559; }
+
+/*ABOUT SECTION*/
+#about-section {
+  background: #81D5FB; }
+  #about-section .heading {
+    font-family: Century;
+    color: #FDD559; }
+  #about-section .lead {
+    font-family: Arial Narrow;
+    color: #FF84A7; }
+  #about-section .btn {
+    font-family: Arial Narrow;
+    color: #FDD559; }
+
+/*ABOUT SECTION 2*/
+#about-section2 .fa {
+  background: #81D5FB;
+  color: #FDD559;
+  border-radius: 3px; }
+
+#about-section2 .heading {
+  font-family: Century;
+  color: #FDD559; }
+
+#about-section2 .pgraph {
+  font-family: Arial Narrow;
+  color: #FF84A7; }
+
+/*SERVICE SECTION*/
+#service-section {
+  background: #81D5FB; }
+  #service-section .heading {
+    font-family: Century;
+    color: #FDD559; }
+  #service-section .lead {
+    font-family: Arial Narrow;
+    color: #FF84A7; }
+  #service-section .btn {
+    font-family: Arial Narrow;
+    color: #FDD559; }
+
+/*SERVICE SECTION 2*/
+#service-section2 {
+  background: #FF84A7; }
+  #service-section2 .heading {
+    font-family: Century;
+    color: #81D5FB; }
+  #service-section2 .pgraph {
+    font-family: Arial Narrow;
+    color: #FDD559; }
+  #service-section2 .fa {
+    color: #FDD559;
+    background: #81D5FB;
+    border-radius: 3px;
+    font-size: 21px; }
+  #service-section2 .align-self-end {
+    font-family: Arial Narrow;
+    color: #81D5FB; }
+
+/*CONTACT SECTION*/
+#contact-section {
+  background: #81D5FB; }
+  #contact-section .heading {
+    font-family: Century;
+    color: #FF84A7; }
+  #contact-section .lead {
+    font-family: Arial Narrow;
+    color: #FDD559; }
+  #contact-section .btn {
+    font-family: Arial Narrow;
+    color: #FF84A7; }
+
+/*CONTACT SECTION 2*/
+#contact-section2 .heading {
+  font-familt: Century;
+  color: #81D5FB; }
+
+#contact-section2 .pgraph {
+  font-family: Arial Narrow;
+  color: #FF84A7; }
+
+#contact-section2 .fa {
+  color: #FDD559;
+  background: #81D5FB;
+  border-radius: 3px;
+  font-size: 21px; }
+
+#footer {
+  background: #303840; }
+  #footer .brandname {
+    font-family: Century;
+    color: #81D5FB; }
+  #footer .pgraph {
+    font-family: Arial Narrow;
+    color: #FDD559; }
+  #footer .name {
+    color: #FDD559; }
+
+/*MODAL*/
+#modalbox .modal-content {
+  background: #FF84A7; }
+
+#modalbox .close {
+  color: #81D5FB; }
+
+#modalbox .heading {
+  font-family: Century;
+  color: #81D5FB; }
+
+#modalbox .label-tag {
+  font-family: Arial Narrow;
+  color: #81D5FB; }
+
+#modalbox .btn {
+  font-family: Arial Narrow;
+  color: #FDD559;
+  background: #81D5FB; }

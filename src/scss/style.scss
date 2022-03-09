@@ -1,0 +1,206 @@
+$firclr:#81D5FB;
+$secclr:#FDD559;
+$thiclr:#FF84A7;
+
+$hfont:Century;
+$pfont:Arial Narrow;
+/*HOME SECTION*/
+.navbar{
+  opacity: 0.7;
+  border-top:3px solid $firclr;
+  border-bottom:3px solid $firclr;
+}
+.brandname{
+  color:$firclr;
+  font-family:$hfont;
+}
+#menubar{
+  .nav-link{
+    font-family:$pfont;
+    color:$firclr;
+  }
+  ul li a:hover{
+    color:$secclr;
+    font-weight:bold;
+  }
+}
+/*HOME SECTION*/
+#home-section{
+  background:url('../img/bg.jpg') no-repeat center top;
+  background-size:cover;
+  background-attachment:fixed;
+  .dark-overlay{
+    background:rgba(0,0,0,0.7);
+  }
+  .heading{
+    font-family:$hfont;
+    color:$firclr;
+  }
+  .pgraph{
+    font-family:$pfont;
+    color:$thiclr;
+  }
+  .container{
+    padding-top:135px;
+    padding-bottom:135px;
+  }
+  .card{
+    background:$thiclr;
+  }
+  .fa{
+    color:$secclr;
+    background:$firclr;
+    border-radius:2px;
+  }
+  .signup{
+    font-family:$hfont;
+    color:$secclr;
+  }
+  .register{
+    font-family:$pfont;
+    color:$secclr;
+  }
+  .btn{
+    font-family:$pfont;
+    color:$secclr;
+  }
+}
+/*ABOUT SECTION*/
+#about-section{
+  background:$firclr;
+  .heading{
+    font-family:$hfont;
+    color:$secclr;
+  }
+  .lead{
+    font-family:$pfont;
+    color:$thiclr;
+  }
+  .btn{
+    font-family:$pfont;
+    color:$secclr;
+  }
+}
+/*ABOUT SECTION 2*/
+#about-section2{
+  .fa{
+    background:$firclr;
+    color:$secclr;
+    border-radius:3px;
+  }
+  .heading{
+    font-family:$hfont;
+    color:$secclr;
+  }
+  .pgraph{
+    font-family:$pfont;
+    color:$thiclr;
+  }
+}
+/*SERVICE SECTION*/
+#service-section{
+  background:$firclr;
+  .heading{
+    font-family:$hfont;
+    color:$secclr;
+  }
+  .lead{
+    font-family:$pfont;
+    color:$thiclr;
+  }
+  .btn{
+    font-family:$pfont;
+    color:$secclr;
+  }
+}
+/*SERVICE SECTION 2*/
+#service-section2{
+  background:$thiclr;
+  .heading{
+    font-family:$hfont;
+    color:$firclr;
+  }
+  .pgraph{
+    font-family:$pfont;
+    color:$secclr;
+  }
+  .fa{
+    color:$secclr;
+    background:$firclr;
+    border-radius:3px;
+    font-size:21px;
+  }
+  .align-self-end{
+    font-family:$pfont;
+    color:$firclr;
+  }
+}
+/*CONTACT SECTION*/
+#contact-section{
+  background:$firclr;
+  .heading{
+    font-family:$hfont;
+    color:$thiclr;
+  }
+  .lead{
+    font-family:$pfont;
+    color:$secclr;
+  }
+  .btn{
+    font-family:$pfont;
+    color:$thiclr;
+  }
+}
+/*CONTACT SECTION 2*/
+#contact-section2{
+  .heading{
+    font-familt:$hfont;
+    color:$firclr;
+  }
+  .pgraph{
+    font-family:$pfont;
+    color:$thiclr;
+  }
+  .fa{
+    color:$secclr;
+    background:$firclr;
+    border-radius:3px;
+    font-size:21px;
+  }
+}
+#footer{
+  background:#303840;
+  .brandname{
+    font-family:$hfont;
+    color:$firclr;
+  }
+  .pgraph{
+    font-family:$pfont;
+    color:$secclr;
+  }
+  .name{
+    color:$secclr;
+  }
+}
+/*MODAL*/
+#modalbox{
+  .modal-content{
+    background:$thiclr;
+  }
+  .close{
+    color:$firclr;
+  }
+  .heading{
+    font-family:$hfont;
+    color:$firclr;
+  }
+  .label-tag{
+    font-family:$pfont;
+    color:$firclr;
+  }
+  .btn{
+    font-family:$pfont;
+    color:$secclr;
+    background:$firclr;
+  }
+}

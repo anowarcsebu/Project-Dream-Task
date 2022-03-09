@@ -1,0 +1,14 @@
+{
+  "name": "project_draft",
+  "version": "1.0.0",
+  "description": "Preject Draft",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w src/scss/ -o src/css/ --recursive"
+  },
+  "author": "Anowar",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
