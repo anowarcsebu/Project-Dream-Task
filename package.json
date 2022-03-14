@@ -4,7 +4,7 @@
   "description": "Preject Draft",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass -w src/scss/ -o src/css/ --recursive"
+    "scss": "node-sass -w docs/scss/ -o docs/css/ --recursive"
   },
   "author": "Anowar",
   "license": "ISC",

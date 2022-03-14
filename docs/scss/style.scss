@@ -2,7 +2,7 @@ $firclr:#81D5FB;
 $secclr:#FDD559;
 $thiclr:#FF84A7;
 
-$hfont:Century;
+$hfont:'IBM Plex Sans', sans-serif;
 $pfont:'Smooch Sans', sans-serif;
 /*HOME SECTION*/
 .navbar{
@@ -16,8 +16,13 @@ $pfont:'Smooch Sans', sans-serif;
 }
 #menubar{
   .nav-link{
-    font-family:$pfont;
+    font-family:$hfont;
     color:$firclr;
+    font-size:19px;
+    margin-right:10px;
+  }
+  .nav-link:last-child{
+    margin-right:none;
   }
   ul li a:hover{
     color:$secclr;
@@ -79,6 +84,8 @@ $pfont:'Smooch Sans', sans-serif;
   .btn{
     font-family:$pfont;
     color:$secclr;
+    font-size:19px;
+    font-weight:bold;
   }
 }
 /*ABOUT SECTION 2*/
@@ -111,6 +118,8 @@ $pfont:'Smooch Sans', sans-serif;
   .btn{
     font-family:$pfont;
     color:$secclr;
+    font-size:19px;
+    font-weight:bold;
   }
 }
 /*SERVICE SECTION 2*/
@@ -149,6 +158,8 @@ $pfont:'Smooch Sans', sans-serif;
   .btn{
     font-family:$pfont;
     color:$thiclr;
+    font-size:19px;
+    font-weight:bold;
   }
 }
 /*CONTACT SECTION 2*/
@@ -174,7 +185,7 @@ $pfont:'Smooch Sans', sans-serif;
     font-family:$hfont;
     color:$firclr;
   }
-  .pgraph{
+  .lead{
     font-family:$pfont;
     color:$secclr;
   }
@@ -185,7 +196,8 @@ $pfont:'Smooch Sans', sans-serif;
     background:$firclr;
     color:$thiclr;
     font-family:$hfont;
-    font-wegint:bold;
+    font-size:19px;
+    font-weight:bold;
   }
 }
 /*MODAL*/
@@ -200,7 +212,7 @@ $pfont:'Smooch Sans', sans-serif;
     font-family:$hfont;
     color:$firclr;
   }
-  .label-tag{
+  .lead{
     font-family:$pfont;
     color:$firclr;
   }
@@ -208,5 +220,6 @@ $pfont:'Smooch Sans', sans-serif;
     font-family:$pfont;
     color:$secclr;
     background:$firclr;
+    font-size:19px;
   }
 }
