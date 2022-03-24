@@ -1,9 +1,17 @@
+
+/*FONT FAMILY FOR HEADING*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+/*FONT FAMILY FOR PARAGRAPH*/
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
+
+
 $firclr:#81D5FB;
 $secclr:#FDD559;
 $thiclr:#FF84A7;
 
-$hfont:'IBM Plex Sans', sans-serif;
-$pfont:'Smooch Sans', sans-serif;
+$hfont:'Lobster Two', cursive;
+$pfont:'El Messiri', sans-serif;
 /*HOME SECTION*/
 .navbar{
   opacity: 0.7;
