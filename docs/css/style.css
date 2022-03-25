@@ -1,10 +1,17 @@
-
 /*FONT FAMILY FOR HEADING*/
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 /*FONT FAMILY FOR PARAGRAPH*/
-@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap");
+body h1, body h2, body h3, body h4, body h5, body h6, body label {
+  font-family: "Lobster Two", cursive; }
 
-/*HOME SECTION*/
+body p, body a, body .btn {
+  font-family: "Yanone Kaffeesatz", sans-serif; }
+
+.form-control::placeholder {
+  font-family: "Yanone Kaffeesatz", sans-serif; }
+
+/*MENU SECTION*/
 .navbar {
   opacity: 0.7;
   border-top: 3px solid #81D5FB;
@@ -35,10 +42,8 @@
   #home-section .dark-overlay {
     background: rgba(0, 0, 0, 0.7); }
   #home-section .heading {
-    font-family: "Lobster Two", cursive;
     color: #81D5FB; }
   #home-section .pgraph {
-    font-family: "El Messiri", sans-serif;
     color: #FF84A7; }
   #home-section .container {
     padding-top: 135px;
@@ -48,28 +53,24 @@
   #home-section .fa {
     color: #FDD559;
     background: #81D5FB;
-    border-radius: 2px; }
+    border-radius: 3px;
+    font-size: 25px; }
   #home-section .signup {
     font-family: "Lobster Two", cursive;
     color: #FDD559; }
   #home-section .register {
-    font-family: "El Messiri", sans-serif;
     color: #FDD559; }
   #home-section .btn {
-    font-family: "El Messiri", sans-serif;
     color: #FDD559; }
 
 /*ABOUT SECTION*/
 #about-section {
   background: #81D5FB; }
   #about-section .heading {
-    font-family: "Lobster Two", cursive;
     color: #FDD559; }
   #about-section .lead {
-    font-family: "El Messiri", sans-serif;
     color: #FF84A7; }
   #about-section .btn {
-    font-family: "El Messiri", sans-serif;
     color: #FDD559;
     font-size: 19px;
     font-weight: bold; }
@@ -78,27 +79,23 @@
 #about-section2 .fa {
   background: #81D5FB;
   color: #FDD559;
-  border-radius: 3px; }
+  border-radius: 3px;
+  font-size: 25px; }
 
 #about-section2 .heading {
-  font-family: "Lobster Two", cursive;
   color: #FDD559; }
 
 #about-section2 .pgraph {
-  font-family: "El Messiri", sans-serif;
   color: #FF84A7; }
 
 /*SERVICE SECTION*/
 #service-section {
   background: #81D5FB; }
   #service-section .heading {
-    font-family: "Lobster Two", cursive;
     color: #FDD559; }
   #service-section .lead {
-    font-family: "El Messiri", sans-serif;
     color: #FF84A7; }
   #service-section .btn {
-    font-family: "El Messiri", sans-serif;
     color: #FDD559;
     font-size: 19px;
     font-weight: bold; }
@@ -107,59 +104,51 @@
 #service-section2 {
   background: #FF84A7; }
   #service-section2 .heading {
-    font-family: "Lobster Two", cursive;
     color: #81D5FB; }
   #service-section2 .pgraph {
-    font-family: "El Messiri", sans-serif;
     color: #FDD559; }
   #service-section2 .fa {
     color: #FDD559;
     background: #81D5FB;
     border-radius: 3px;
-    font-size: 21px; }
+    font-size: 25px; }
   #service-section2 .align-self-end {
-    font-family: "El Messiri", sans-serif;
     color: #81D5FB; }
 
 /*CONTACT SECTION*/
 #contact-section {
   background: #81D5FB; }
   #contact-section .heading {
-    font-family: "Lobster Two", cursive;
     color: #FF84A7; }
   #contact-section .lead {
-    font-family: "El Messiri", sans-serif;
     color: #FDD559; }
   #contact-section .btn {
-    font-family: "El Messiri", sans-serif;
     color: #FF84A7;
     font-size: 19px;
     font-weight: bold; }
 
 /*CONTACT SECTION 2*/
 #contact-section2 .heading {
-  font-familt: "Lobster Two", cursive;
   color: #81D5FB; }
 
 #contact-section2 .pgraph {
-  font-family: "El Messiri", sans-serif;
   color: #FF84A7; }
 
 #contact-section2 .fa {
   color: #FDD559;
   background: #81D5FB;
   border-radius: 3px;
-  font-size: 21px; }
+  font-size: 25px; }
 
 #footer {
   background: #303840; }
   #footer .brandname {
-    font-family: "Lobster Two", cursive;
     color: #81D5FB; }
   #footer .lead {
-    font-family: "El Messiri", sans-serif;
+    font-family: "Lobster Two", cursive;
     color: #FDD559; }
   #footer .name {
+    font-family: "Lobster Two", cursive;
     color: #FDD559; }
   #footer .btn {
     background: #81D5FB;
@@ -176,15 +165,12 @@
   color: #81D5FB; }
 
 #modalbox .heading {
-  font-family: "Lobster Two", cursive;
   color: #81D5FB; }
 
 #modalbox .lead {
-  font-family: "El Messiri", sans-serif;
   color: #81D5FB; }
 
 #modalbox .btn {
-  font-family: "El Messiri", sans-serif;
   color: #FDD559;
   background: #81D5FB;
   font-size: 19px; }

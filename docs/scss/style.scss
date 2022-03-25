@@ -3,16 +3,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 
 /*FONT FAMILY FOR PARAGRAPH*/
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
 
 $firclr:#81D5FB;
 $secclr:#FDD559;
 $thiclr:#FF84A7;
 
 $hfont:'Lobster Two', cursive;
-$pfont:'El Messiri', sans-serif;
-/*HOME SECTION*/
+$pfont:'Yanone Kaffeesatz', sans-serif;
+
+body{
+  h1,h2,h3,h4,h5,h6,label{
+    font-family:$hfont;
+  }
+  p,a,.btn{
+    font-family:$pfont;
+  }
+}
+.form-control::placeholder{
+  font-family:$pfont;
+}
+
+/*MENU SECTION*/
 .navbar{
   opacity: 0.7;
   border-top:3px solid $firclr;
@@ -46,11 +58,9 @@ $pfont:'El Messiri', sans-serif;
     background:rgba(0,0,0,0.7);
   }
   .heading{
-    font-family:$hfont;
     color:$firclr;
   }
   .pgraph{
-    font-family:$pfont;
     color:$thiclr;
   }
   .container{
@@ -63,18 +73,17 @@ $pfont:'El Messiri', sans-serif;
   .fa{
     color:$secclr;
     background:$firclr;
-    border-radius:2px;
+    border-radius:3px;
+    font-size:25px;
   }
   .signup{
     font-family:$hfont;
     color:$secclr;
   }
   .register{
-    font-family:$pfont;
     color:$secclr;
   }
   .btn{
-    font-family:$pfont;
     color:$secclr;
   }
 }
@@ -82,15 +91,12 @@ $pfont:'El Messiri', sans-serif;
 #about-section{
   background:$firclr;
   .heading{
-    font-family:$hfont;
     color:$secclr;
   }
   .lead{
-    font-family:$pfont;
     color:$thiclr;
   }
   .btn{
-    font-family:$pfont;
     color:$secclr;
     font-size:19px;
     font-weight:bold;
@@ -102,13 +108,12 @@ $pfont:'El Messiri', sans-serif;
     background:$firclr;
     color:$secclr;
     border-radius:3px;
+    font-size:25px;
   }
   .heading{
-    font-family:$hfont;
     color:$secclr;
   }
   .pgraph{
-    font-family:$pfont;
     color:$thiclr;
   }
 }
@@ -116,15 +121,12 @@ $pfont:'El Messiri', sans-serif;
 #service-section{
   background:$firclr;
   .heading{
-    font-family:$hfont;
     color:$secclr;
   }
   .lead{
-    font-family:$pfont;
     color:$thiclr;
   }
   .btn{
-    font-family:$pfont;
     color:$secclr;
     font-size:19px;
     font-weight:bold;
@@ -134,21 +136,18 @@ $pfont:'El Messiri', sans-serif;
 #service-section2{
   background:$thiclr;
   .heading{
-    font-family:$hfont;
     color:$firclr;
   }
   .pgraph{
-    font-family:$pfont;
     color:$secclr;
   }
   .fa{
     color:$secclr;
     background:$firclr;
     border-radius:3px;
-    font-size:21px;
+    font-size:25px;
   }
   .align-self-end{
-    font-family:$pfont;
     color:$firclr;
   }
 }
@@ -156,15 +155,12 @@ $pfont:'El Messiri', sans-serif;
 #contact-section{
   background:$firclr;
   .heading{
-    font-family:$hfont;
     color:$thiclr;
   }
   .lead{
-    font-family:$pfont;
     color:$secclr;
   }
   .btn{
-    font-family:$pfont;
     color:$thiclr;
     font-size:19px;
     font-weight:bold;
@@ -173,31 +169,29 @@ $pfont:'El Messiri', sans-serif;
 /*CONTACT SECTION 2*/
 #contact-section2{
   .heading{
-    font-familt:$hfont;
     color:$firclr;
   }
   .pgraph{
-    font-family:$pfont;
     color:$thiclr;
   }
   .fa{
     color:$secclr;
     background:$firclr;
     border-radius:3px;
-    font-size:21px;
+    font-size:25px;
   }
 }
 #footer{
   background:#303840;
   .brandname{
-    font-family:$hfont;
     color:$firclr;
   }
   .lead{
-    font-family:$pfont;
+    font-family:$hfont;
     color:$secclr;
   }
   .name{
+    font-family:$hfont;
     color:$secclr;
   }
   .btn{
@@ -217,15 +211,12 @@ $pfont:'El Messiri', sans-serif;
     color:$firclr;
   }
   .heading{
-    font-family:$hfont;
     color:$firclr;
   }
   .lead{
-    font-family:$pfont;
     color:$firclr;
   }
   .btn{
-    font-family:$pfont;
     color:$secclr;
     background:$firclr;
     font-size:19px;
