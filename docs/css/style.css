@@ -174,3 +174,9 @@ body p, body a, body .btn {
   color: #FDD559;
   background: #81D5FB;
   font-size: 19px; }
+
+/*MEDIA QUERY*/
+@media (max-width: 300px) {
+  .navbar-toggler-icon {
+    width: 1.25rem;
+    height: 1.25rem; } }
